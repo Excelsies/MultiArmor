@@ -21,7 +21,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 public class OnSmithingListener implements Listener {
     
     @EventHandler
-    public void onSmithingListerner(PrepareSmithingEvent event){
+    public void onSmithingListener(PrepareSmithingEvent event){
 
         if(event.getResult().getType() == Material.ELYTRA){
             ItemStack result = new ItemStack(Material.ELYTRA);
