@@ -1,7 +1,20 @@
 {
     "files.autoGuessEncoding": true,
-    "java.jdt.ls.vmargs": "-Dfile.encoding=UTF-8",
+    "files.encoding": "utf8",
     "java.home": "C:\\Program Files\\Java\\jdk-15",
+    "java.jdt.ls.vmargs": "-Dfile.encoding=UTF-8",
+    "java.format.settings.url": "eclipse-formatter.xml",
     "javac-linter.javac": "javac -Dfile.encoding=UTF-8",
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "maven.view": "flat",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.project.referencedLibraries": [
+      "c:\\Users\\Garet\\.m2\\repository\\org\\spigotmc\\spigot-api\\1.16.3-R0.1-SNAPSHOT\\spigot-api-1.16.3-R0.1-SNAPSHOT.jar"
+    ]
 }

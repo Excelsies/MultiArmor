@@ -2,4 +2,4 @@ main: me.excelsies.multiarmor.Main
 name: MultiArmor
 version: 0.1
 author: Excelsies
-description: MultiArmor
+api-version: 1.16
