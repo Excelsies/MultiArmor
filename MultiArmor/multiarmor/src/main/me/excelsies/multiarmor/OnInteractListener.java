@@ -36,7 +36,6 @@ public class OnInteractListener implements Listener {
                 if(i.getItemMeta().getDisplayName().equals(ChatColor.DARK_PURPLE + "Weather Stick")){
                     if(i.getItemMeta().getLore().contains(ChatColor.BLUE + "A stick that controls the weather")){
                         player.sendMessage("You used the " + i.getItemMeta().getDisplayName() + "!");
-                        //admin.performCommand("minecraft:weather clear");
                         admin.dispatchCommand(admin.getConsoleSender(), "minecraft:weather clear");
                     }
                 }
